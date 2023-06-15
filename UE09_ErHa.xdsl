@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in trial version of GeNIe, which can be used for evaluation purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="TrainStrike">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="JohannaLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>TrainStrike</parents>
+			<probabilities>0.5 0.5 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="PetersAlarmFails">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="PeterLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>TrainStrike PetersAlarmFails</parents>
+			<probabilities>0.7 0.3 0.3 0.7 0.4 0.6 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Copy_of_TrainStrike">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="Copy_of_JohannaLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>Copy_of_TrainStrike</parents>
+			<probabilities>0.5 0.5 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="Copy_of_PetersAlarmFails">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="Copy_of_PeterLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>Copy_of_TrainStrike Copy_of_PetersAlarmFails</parents>
+			<probabilities>0.7 0.3 0.3 0.7 0.4 0.6 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_TrainStrike">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_JohannaLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>Copy_2_of_TrainStrike</parents>
+			<probabilities>0.5 0.5 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_PetersAlarmFails">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_PeterLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>Copy_2_of_TrainStrike Copy_2_of_PetersAlarmFails</parents>
+			<probabilities>0.7 0.3 0.3 0.7 0.4 0.6 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Copy_3_of_TrainStrike">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.05 0.95</probabilities>
+		</cpt>
+		<cpt id="Copy_3_of_JohannaLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>Copy_3_of_TrainStrike</parents>
+			<probabilities>0.5 0.5 0.02 0.98</probabilities>
+		</cpt>
+		<cpt id="Copy_3_of_PetersAlarmFails">
+			<state id="True" />
+			<state id="False" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="Copy_3_of_PeterLate">
+			<state id="True" />
+			<state id="False" />
+			<parents>Copy_3_of_TrainStrike Copy_3_of_PetersAlarmFails</parents>
+			<probabilities>0.7 0.3 0.3 0.7 0.4 0.6 0.01 0.99</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.0.2919.2 EVALUATION" name="Network1">
+			<node id="JohannaLate">
+				<name>JohannaLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>160 260 303 312</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="PeterLate">
+				<name>PeterLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>392 267 535 319</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="TrainStrike">
+				<name>TrainStrike</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>175 141 318 193</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="PetersAlarmFails">
+				<name>PetersAlarmFails</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>395 135 531 188</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_JohannaLate">
+				<name>Copy of JohannaLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>773 259 916 311</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_PeterLate">
+				<name>Copy of PeterLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1005 266 1148 318</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_TrainStrike">
+				<name>Copy of TrainStrike</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>788 140 931 192</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_PetersAlarmFails">
+				<name>Copy of PetersAlarmFails</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1008 134 1144 187</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_2_of_JohannaLate">
+				<name>Copy (2) of JohannaLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>168 700 311 752</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_2_of_PeterLate">
+				<name>Copy (2) of PeterLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>400 707 543 759</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_2_of_TrainStrike">
+				<name>Copy (2) of TrainStrike</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>183 584 326 636</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_2_of_PetersAlarmFails">
+				<name>Copy (2) of PetersAlarmFails</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>406 588 542 641</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_3_of_JohannaLate">
+				<name>Copy (3) of JohannaLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>757 705 900 757</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_3_of_PeterLate">
+				<name>Copy (3) of PeterLate</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>989 712 1132 764</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_3_of_TrainStrike">
+				<name>Copy (3) of TrainStrike</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>772 586 915 638</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_3_of_PetersAlarmFails">
+				<name>Copy (3) of PetersAlarmFails</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>992 580 1128 633</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<textbox>
+				<caption>Default</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>331 94 365 106</position>
+			</textbox>
+			<textbox>
+				<caption>Wahrscheinlichkeit, dass Johanne zu spät kommt, falls Peters Wecker nicht klingelt -&gt; Keine Auswirkung auf Anna</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>872 91 1056 127</position>
+			</textbox>
+			<textbox>
+				<caption>Wahrscheinlichkeit, dass Johanne zu spät kommt, falls Peters zu spät kommt -&gt; 15% (steigt, weil auch die Wahrscheinlichkeit steigt, dass ein Bahnstreik die Ursache für Peters Zuspätkommen ist</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>269 483 419 567</position>
+			</textbox>
+			<textbox>
+				<caption>Wahrscheinlichkeit, dass Johanne zu spät kommt, falls Peters zu spät kommt -&gt; 6% (steigt, weil auch die Wahrscheinlichkeit steigt, dass ein Bahnstreik die Ursache für Peters Zuspätkommen ist (aber nicht so stark wie im vorangegangenen Beispiel, da Peters Wecker auch ausgefallen ist und daher die Wahrscheinlichkeit, dass der Zug Verspätung hat geringer ist.</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>854 437 1047 557</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>
